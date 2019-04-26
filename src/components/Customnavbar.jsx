@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Customnavbar.css'
 
 export default class Customnavbar extends Component {
   render() {
@@ -10,7 +11,7 @@ export default class Customnavbar extends Component {
                 CODELIFE
             </Navbar.Brand>
             <Navbar.Toggle />
-        <Navbar.Collapse className="bg-light justify-content-end">
+        <Navbar.Collapse className="justify-content-end">
             <Nav>
                 <Nav.Link href="/">
                 Home

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap';
 import './home.css'
 
+
 export default class home extends Component {
   render() {
     return (
@@ -16,7 +17,7 @@ export default class home extends Component {
         </Jumbotron>
         <Row className="show-grid text-center">
             <Col xs={12} sm={12} className="person-wrapper">
-            <Image src="" circle className="profile-pic" />
+                    <Image src="assets/Profilepic.jpg" roundedCircle className="profile-pic" />
             <h3> Tommy </h3>
             <p>Cool ass programmer!</p>
             </Col>
